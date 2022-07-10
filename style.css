@@ -1,0 +1,66 @@
+html {
+  background-color: black;
+  align-items: center;
+  width: 50%;
+  margin: auto;
+}
+
+h1,
+h2 {
+  width: 100%;
+  color: rgba(238, 234, 234, 0.463);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+#game div {
+  cursor: pointer;
+  background-color: rgb(150, 148, 153);
+  height: 200px;
+  display: inline-block;
+  border: 2px solid rgb(99, 93, 97);
+  border-radius: 4px;
+  width: 150px;
+  display: inline-block;
+  padding-left: 25px;
+  align-items: center;
+  margin: 20px 20px 20px 20px;
+  /* background-image: conic-gradient(red, yellow, blue, green, orange); */
+}
+
+.board {
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: dimgray;
+  display: inline-block;
+}
+
+.red .flipped {
+  color: #93032e;
+}
+
+.orange .flipped {
+  color: #e6af2e;
+}
+
+.green .flipped {
+  color: #61e786;
+}
+
+.blue .flipped {
+  color: #3d348b;
+}
+
+.purple .flipped {
+  color: #9792e3;
+}
+
+/* <palette> */
+/* <color name="red" hex="93032e" r="147" g="3" b="46" /> */
+/* <color name="green" hex="61e786" r="97" g="231" b="134" /> */
+/* <color name="orange" hex="e6af2e" r="230" g="175" b="46" /> */
+/* <color name="blue" hex="3d348b" r="61" g="52" b="139" /> */
+/* <color name="purple" hex="9792e3" r="151" g="146" b="227" /> */
+/* </palette> */
