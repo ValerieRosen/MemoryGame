@@ -28,14 +28,9 @@ h2 {
 .board {
   width: 500px;
   background-color: dimgray;
-<<<<<<< Updated upstream
   position: absolute;
   top: 10%;
   left: 25%;
-=======
-  margin: auto;
-  display: flex-wrap;
->>>>>>> Stashed changes
 }
 
 .red .flipped {
